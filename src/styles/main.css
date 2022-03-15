@@ -1,21 +1,37 @@
 body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .login-screen {
+  width: 50vw;
+  height: 50vh;
   display: flex;
   flex-direction: column;
+  border: 1px solid #e8e8e8;
 }
 
 .login-options {
+  height: 90%;
   display: flex;
 }
 
 .social-media-login {
+  width: 49%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-media-login a {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .social-media-login #facebook {
   background-color: #4267B2;
@@ -28,8 +44,20 @@ body {
 }
 
 .user-email-login {
+  width: 49%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register-forgotton {
+  height: 10%;
+  border-top: 1px solid #e8e8e8;
+  background-color: #e7f5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
