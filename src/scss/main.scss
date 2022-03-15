@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-screen {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-options {
+    display: flex;
+}
+
+.social-media-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-email-login {
+    display: flex;
+    flex-direction: column;
+}
