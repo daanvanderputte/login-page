@@ -12,7 +12,7 @@ body {
   height: 50vh;
   display: flex;
   flex-direction: column;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #cccccc;
 }
 
 .login-options {
@@ -52,17 +52,17 @@ body {
 .devider {
   width: 1px;
   height: 70%;
-  border: 1px solid #e8e8e8;
+  border-right: 1px solid #cccccc;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .devider #or {
-  width: 700px;
+  width: 40px;
   height: 30px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #cccccc;
   border-radius: 100%;
-  color: #e8e8e8;
+  color: #cccccc;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -88,7 +88,7 @@ form .email-password input {
   width: 80%;
   height: 25%;
   border: none;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #cccccc;
 }
 form .remember-login {
   width: 80%;
@@ -118,7 +118,7 @@ form button {
 
 .register-forgotton {
   height: 10%;
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #cccccc;
   background-color: #e7f5ff;
   display: flex;
   justify-content: center;

@@ -60,13 +60,13 @@ body {
 .devider {
     width: 1px;
     height: 70%;
-    border: 1px solid $login-gray;
+    border-right: 1px solid $login-gray;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     #or {
-        width: 700px;
+        width: 40px;
         height: 30px;
         border: 1px solid $login-gray;
         border-radius: 100%;
