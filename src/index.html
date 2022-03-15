@@ -19,14 +19,21 @@
             <div class="devider">
                 <div id="or">OR</div>
             </div>
-            <div class="user-email-login">
+            <form>
                 <h3>Sign in with</h3>
-                <input type="email" name="email" placeholder="&#xf007; Username or email">
-                <input type="password" name="password" placeholder="&#xf023; Password">
+                <div class="email-password">
+                    <input type="email" placeholder="Username or email">
+                    <input type="password" placeholder="Password">
+                </div>
                 <div class="remember-login">
-                <input type="checkbox" name="remember me"><Label>Remember Me</Label>
-                <input type="submit" value="LOGIN"></div>
-            </div>
+                    <div id="remember">
+                        <input type="checkbox" name="rememberMe"><label for="rememberMe">Remember me</label>
+                    </div>
+                    <div id="login">
+                        <button>LOGIN</button>
+                    </div>
+                </div>
+            </form>
         </div>
         <div class="register-forgotton">
             <div id="register">
