@@ -17,6 +17,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+.social-media-login #facebook {
+  background-color: #4267B2;
+}
+.social-media-login #google {
+  background-color: #DB4437;
+}
+.social-media-login #twitter {
+  background-color: #1DA1F2;
+}
 
 .user-email-login {
   display: flex;
